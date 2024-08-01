@@ -1,0 +1,138 @@
+<!--
+ У коді до завдання,наведено HTML-документ. Усередині тега <p>є опис мультфільму «Термінатор». Внесіть зміни в код, послідовно виконавши наступні кроки.
+
+ 1.Додайте тег <title></title> і пропишіть заголовок сторінки всередині тега.
+ 2. Додайте довільний заголовок <h1> після тега <body>.
+ 3. Додайте довільний заголовок <h2>
+ 4. Розділіть текст на три абзаци за допомогою тега <p>
+ 5. За допомогою html-тегів виділіть курсивом  "(англ. The Terminator)", «культурно, історично або естетично значущий».
+ 6. За допомогою html-тегів виділіть вжирним шрифтом: "Термінатор Т-800", "IMDb".
+ 7. Задайте для усього тексту розмір 20px, а також змініть колір заголовків на darkgray
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first time</title>
+    <style>
+        p {
+            font-size: 20px;
+            /*background-color: darkgray;*/
+            color: red;
+        }
+
+        a {
+            color: #0d00ff;
+            display: inline-block;
+            /*margin-right: 50px;*/
+            text-decoration: none;
+        }
+
+        img {
+            width: 120px;
+        }
+
+        body {
+            background-image: url("https://www.nastol.com.ua/large/201210/33695.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            width: 80%;
+            margin: 50px 100px;
+        }
+
+        h1, h2 {
+            /*color: darkgray;*/
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .flex {
+            height: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+
+            /*background-color: gray;*/
+
+        }
+
+        .term123 {
+            width: 50px;
+            height: 50px;
+            /*display: flex;*/
+            transition: 500ms;
+            justify-content: center; /*текст по иксу*/
+            align-items: center; /*текст по игрику*/
+            /*font-size: 10px;*/
+            gap: 0.5%;
+            flex-direction: column;
+            font-size: 15px;
+
+            div.term123 img {
+
+                width: 100%;
+                /*height: 100px;*/
+            }
+
+        }
+
+        .term123:hover {
+            border-radius: 5%; /*уровень зоокругления */
+            transition: 1s; /*скорость транспормации*/
+            transform: scale(1.3); /*трансформация отсека*/
+        }
+    </style>
+</head>
+<body>
+<h1>Фiльм для усієї родини</h1>
+<h2>Термінатор Forever</h2>
+<p>«<strong> <a
+        href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)">Терміна́тор </a>
+</strong>» <i>(англ. The Terminator)</i>> — американський культовий фантастичний бойовик <strong>
+    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%8D%D0%BC%D0%B5%D1%80%D0%BE%D0%BD,_%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81">Джеймса
+        Кемерона</a></strong>, знятий у 1984 році. Це перший фільм із серії про Термінатора. Фільм довгий час входив до
+    списку 250 найкращих фільмів за версією <a href="https://www.imdb.com/"> <strong> IMDb </strong> </a>, станом на 12
+    грудня 2021 року посідає 44-у позицію у рейтингу науково-фантастичних стрічок.</p>
+
+<div class="flex">
+    <div class="term123">
+
+        <a href="https://www.imdb.com/title/tt0088247/mediaviewer/rm774208512/?ref_=tt_ov_i">
+            <img src="1659533228_3-kartinkin-net-p-terminator-art-oboi-4.jpg" alt="Terminator1">
+            <h3>Terminator</h3></a>
+    </div>
+    <div class="term123">
+        <a href="https://www.imdb.com/title/tt0103064/mediaviewer/rm785418753/?ref_=tt_ov_i">
+            <img src="https://lastfm.freetls.fastly.net/i/u/770x0/c87ab7e72ff450ed078d5cfc6c66c647.jpg#c87ab7e72ff450ed078d5cfc6c66c647"
+                 alt="Terminator2">
+            <h3>Terminator2</h3></p>
+        </a>
+    </div>
+
+
+    <div class="term123">
+        <a href="https://www.imdb.com/title/tt0181852/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_terminator%25203">
+                        <img src="https://images.stopgame.ru/games/logos/3781/c280x280/L-zfIGDQinJt2snDuTq1Cg/terminator_3_war_of_the_machines-square.jpg"
+                            alt="Terminator3">
+            <h3>Terminator3</h3></p>
+        </a>
+    </div>
+</div>
+
+<p>Успіх фільму призвів до створення франшизи, що складається з кількох сиквелів, телесеріалу, коміксів, романів та
+    відеоігор. У 2008 році «Термінатор» обраний Бібліотекою Конгресу для збереження в Національному реєстрі фільмів як
+    <i>«культурно, історично або естетично значущий»</i>. Фільм відкривається сценою похмурого майбутнього, де триває
+    війна людей і машин. Але головна битва цієї війни має відбутися в минулому, 1984 року.
+</p>
+<p>В нічному Лос-Анджелесі водій сміттєвозу стає свідком дивних спалахів, з яких з'являється оголений чоловік, <b>Термінатор
+    Т-800</b> (Арнольд Шварценеггер). Цей невідомий знаходить групу панків, яким наказує віддати йому одяг. У відповідь
+    на погрози невідомий демонструє величезну силу, вбиває панків і відбирає одяг. Згодом з іншого спалаху виникає інший
+    чоловік, Кайл Різ (<strong><a
+            href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B9%D0%BA%D0%BB_%D0%91%D1%96%D0%BD">Майкл
+        Бін</a></strong>),
+    котрий забирає у волоцюги штани і тікає від переслідування поліцією
+</p>
+</body>
+</html>

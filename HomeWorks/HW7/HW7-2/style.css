@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-step {
+    width: 1440px;
+    height: 2048px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 132px;
+    background: #FFF;
+    /*background: red;*/
+}
+
+header img {
+    width: 106px;
+    height: 39px;
+    margin: 52px 60px 41px 415px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+
+    width: 45px;
+    height: 20px;
+}
+header ul a {
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+header > ul > li:nth-child(1) {
+    padding-right: 60px;
+}
+
+/*---------------------------------------Nike Rs-x Toys ----------------------------------*/
+.nike-rs {
+    height: 892px;
+    background: #FBF6F3;
+    display: flex;
+}
+
+.nike-rs img {
+    width: 581px;
+    height: 652px;
+    margin: 67px 46px 172px 165px;
+}
+
+.shoes-nike-rs h2 {
+    width: 336px;
+    height: 56px;
+    color: #000;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #000;
+    font-family: Roboto,sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.shoes-nike-rs h2:nth-child(1) {
+    margin: 177px 311px 8px 0;
+}
+
+.shoes-nike-rs h3 {
+    width: 131px;
+    height: 42px;
+    color: #AD0306;
+    font-family: Roboto,sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 23px 178px 52px 0;
+}
+
+.shoes-nike-rs ul {
+    display: flex;
+    list-style-type: none;
+    gap: 27px;
+    margin-bottom: 62px;
+}
+.shoes-nike-rs ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+     font-weight: 400;
+
+}
+
+.shoes-nike-rs>ul>:nth-child(2),
+.shoes-nike-rs>ul>li:nth-child(5) {
+    color: #A19FA0;
+
+    -webkit-text-stroke-width: 0.20000000298023224;
+    -webkit-text-stroke-color: #A19FA0;
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shoes-nike-rs>ul>li:nth-child(4) {
+    color: #B93536;
+    -webkit-text-stroke-width: 0.20000000298023224;
+    -webkit-text-stroke-color: #A90102;
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.shoes-nike-rs p {
+    color: #000;
+    -webkit-text-stroke-width: 0.10000000149011612;
+    -webkit-text-stroke-color: #000;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 11px;
+}
+
+/*------------------Showing CTAs--------------*/
+.Showing-CTAs h2 {
+    width: 472px;
+    height: 116px;
+    color: #142823;
+    text-align: center;
+    font-family: Inter,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 212px 450px 57px 518px;
+}
+
+.Showing-CTAs .block-shoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+}
+
+.Showing-CTAs .card-box {
+    width: 285px;
+    height: 331px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 32px;
+    background: #FFF;
+
+    /* 200 */
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+
+.Showing-CTAs .card-box img:nth-child(1) {
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+}
+
+.Showing-CTAs .card-box img:nth-child(2) {
+
+    width: 245px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.Showing-CTAs .card-box h4 {
+    width: 245px;
+    color: var(--Neutral--50, #282828);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Showing-CTAs .card-box p {
+    color: var(--Primary-600, #106FDF);
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*--------------------one card---------------------------*/
+.Showing-CTAs .card-box2 {
+    width: 285px;
+    height: 331px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 32px;
+    background: var(--White, #FFF);
+
+    /* 200 */
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+
+.Showing-CTAs .card-box2 img {
+
+    width: 245px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.Showing-CTAs .card-box2 h4 {
+    width: 245px;
+    color: var(--Neutral--50, #282828);
+    text-align: center;
+    font-family: Inter,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Showing-CTAs .card-box2 p {
+    color: #DD152D;
+    font-family: Inter,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

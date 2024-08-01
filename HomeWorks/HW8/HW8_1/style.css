@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div:nth-of-type(1){
+    height: 40vh;
+    background-color: red;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two div:nth-of-type(1){
+    height: 60vh;
+    width: 70vw;
+    background-color: yellow;
+}
+.two div:nth-of-type(2){
+    height: 60vh;
+    width: 30vw;
+    background-color: green;
+}

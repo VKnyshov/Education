@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.2</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 30px;
+            text-align: center;
+            padding: 0 100px 0 100px ;
+        }
+
+        #aqua {
+            background-color: aqua;
+
+        }
+
+        #pink {
+            background-color: hotpink;
+        }
+
+        #yellow {
+            background-color: yellowgreen;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-size: 70px;
+        }
+    </style>
+
+</head>
+<body>
+<section id="aqua">
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores deleniti deserunt est magni minima
+        neque provident repudiandae. Delectus ducimus labore magni maxime necessitatibus odit, officiis quia! Earum,
+        ipsa, sit?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae cumque cupiditate dicta doloribus esse
+        excepturi fuga, hic iste nesciunt perspiciatis quae quam qui, quidem repellat repudiandae rerum saepe
+        tenetur.</p>
+    <a href="#pink">&#8659;</a>
+</section>
+
+
+<section id="pink">
+    <a href="#aqua">&#8657;</a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores deleniti deserunt est magni minima
+        neque provident repudiandae. Delectus ducimus labore magni maxime necessitatibus odit, officiis quia! Earum,
+        ipsa, sit?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae cumque cupiditate dicta doloribus esse
+        excepturi fuga, hic iste nesciunt perspiciatis quae quam qui, quidem repellat repudiandae rerum saepe
+        tenetur.</p>
+    <a href="#yellow"> &#8659;</a>
+</section>
+
+<section id="yellow">
+    <a href="#pink">&#8657;</a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores deleniti deserunt est magni minima
+        neque provident repudiandae. Delectus ducimus labore magni maxime necessitatibus odit, officiis quia! Earum,
+        ipsa, sit?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae cumque cupiditate dicta doloribus esse
+        excepturi fuga, hic iste nesciunt perspiciatis quae quam qui, quidem repellat repudiandae rerum saepe
+        tenetur.</p>
+</section>
+
+</body>
+</html>

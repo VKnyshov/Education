@@ -1,0 +1,33 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    section {
+        background-color: yellow;
+        width: 768px;
+        height: 654px;
+    }
+
+    img {
+        width: 218px;
+        height: 164px;
+        border-radius: 10px;
+        background: lightgray 50% / cover no-repeat;
+    }
+h3{
+    width: 218px;
+    height: 48px;
+}
+    p {
+        width: 218px;
+        height: auto;
+
+    }
+
+    .first-line {
+        margin: 24px 24px 0 24px;
+    }
+
+    .seco-line {
+        margin: 24px;
+    }
+
+
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>9.6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, main, section, footer {
+            border: 1px solid;
+        }
+
+        header {
+            background: #D9D9D9;
+            grid-area: header;
+        }
+
+        main {
+            background: #C1C1C1;
+            grid-area: main;
+        }
+
+        .up-side {
+            background: #7F7A7A;
+            grid-area: up;
+        }
+
+        .down-side {
+            background-color: #6B6161;
+            grid-area: down;
+        }
+
+        .left {
+            background: #A4A4A4;
+            grid-area: left;
+        }
+
+        footer {
+            background: #D9D9D9;
+            grid-area: footer;
+        }
+
+        .sixth-form {
+            height: 100vh;
+            display: grid;
+            /*grid-auto-columns: 1fr 1fr 1.3fr;*/
+            /*grid-template-rows: 0.5fr 2.4fr 2fr 1fr;*/
+            grid-auto-columns: 33vw 34vw 33vw;
+            grid-template-rows: 10vh 45vh 35vh 10vh;
+
+            grid-template-areas:
+        "header header header"
+        "left main up"
+        "left main down"
+        "footer footer footer";
+        }
+    </style>
+</head>
+
+
+<body>
+<div class="sixth-form">
+    <header></header>
+    <section class="left"></section>
+    <main></main>
+    <section class="up-side"></section>
+    <section class="down-side"></section>
+    <footer></footer>
+
+</div>
+</body>
+</html>

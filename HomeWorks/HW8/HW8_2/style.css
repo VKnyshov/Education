@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 30vh;
+    background-color: red;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-box {
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    height: 70vh;
+    width: 40vw;
+    background-color: blue;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+.four-box > div:nth-of-type(1) {
+    height: 30vh;
+    width: 60vw;
+    background-color: green;
+}
+
+/*!*!*-----------------------------------------------------------------------------------------------------*!*!*/
+div.four-box div.tree {
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+}
+
+/*!*!*!*-------------------------------------------------------------------------------------------*!*!*!*/
+.four-box > div:nth-of-type(2) > div:nth-of-type(1) {
+    height: 40vh;
+    width: 20vw;
+    background-color: black;
+}
+
+.four-box > div:nth-of-type(2) > div:nth-of-type(2) {
+    height: 40vh;
+    width: 20vw;
+    background-color: yellow;
+}
+
+.four-box > div:nth-of-type(2) > div:nth-of-type(3) {
+    height: 40vh;
+    width: 20vw;
+    background-color: olive;
+}
+

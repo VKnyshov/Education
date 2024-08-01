@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.all{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap:1%;
+
+}
+.form-action{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    flex-direction: column;
+}
+.after-form{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+/*--------------------------------------------------------------------------*/
+.form-action img{
+    width: 50%;
+}
+
+
+/*!*--------------------------------------------------------------------*!*/
+/*.logos {*/
+/*    height: 10vh;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding: 1vh;*/
+/*    margin-top: 3vh;*/
+/*}*/
+
+/*!*-----------------------------------------------------------------------*!*/
+/*.autentification {*/
+/*    height: 47vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    margin-top: 5vh;*/
+/*    !*background-color: red;*!*/
+/*}*/
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*input[type="email"] {*/
+/*    width: 20vw;*/
+/*    height: 5vh;*/
+/*    margin: 20px 0 20px 80px;*/
+/*    border: 2px solid #d0c4c4;*/
+/*    border-radius: 5px;*/
+
+
+/*}*/
+
+/*input[type="password"] {*/
+/*    width: 20vw;*/
+/*    height: 5vh;*/
+/*    margin: 0 0 20px 80px;*/
+/*    border: 2px solid #d0c4c4;*/
+/*    border-radius: 5px;*/
+
+/*}*/
+
+/*input[type="submit"] {*/
+/*    width: 20vw;*/
+/*    height: 5vh;*/
+/*    border-radius: 15px;*/
+/*    background-color: #4367e7;*/
+/*    margin: 0 0 20px 80px;*/
+/*    border: none;*/
+/*    font-size: 25px;*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*h2 {*/
+/*    width: 20vw;*/
+/*    height: 5vh;*/
+/*    color: gray;*/
+/*    font-size: 1.5vh;*/
+/*    margin: 0 0 40px 80px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    !*background-color: green;*!*/
+/*}*/
+
+/*.autentification a {*/
+/*    width: 20vw;*/
+/*    height: 20px;*/
+/*    !*background-color: yellow;*!*/
+/*    margin: 0 0 2vw 8vh;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    text-decoration: none;*/
+/*    color: #4367e7;*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*.autentification a:first-child::before {*/
+/*    content: '';*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    display: inline-block;*/
+/*    background-image: url(media/icons8-facebook-48.png);*/
+/*    background-size: cover;*/
+
+/*}*/
+
+/*.autentification a:first-child {*/
+/*    font-size: 2vh;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*!*--------------------------------------------------------------------------*!*/
+/*.the-end {*/
+/*    width: 28vw;*/
+/*    height: 8.5vh;*/
+/*    border: 2px solid #d0c4c4;*/
+/*    margin: 1.5vh auto;*/
+/*    display: block;*/
+
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*    padding-left: 5vw;*/
+/*    font-size: 1.5vh;*/
+/*}*/
+
+/*.the-end a {*/
+/*    text-decoration: none;*/
+/*    color: #0931c1;*/
+/*}*/

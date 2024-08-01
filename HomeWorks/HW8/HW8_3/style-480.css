@@ -1,0 +1,49 @@
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    nav {
+        height: 20vh;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100vw;
+        gap: 0;
+        border: 1px solid;
+    }
+    nav ul li {
+        width: 100vh;
+        border: 1px solid;
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    .banner {
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    /*------------------------------------------------------*/
+    .up {
+        flex-direction: column;
+    }
+
+    .up div {
+        width: 100vw;
+        height: 50vh;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .down {
+        flex-direction: column;
+    }
+
+    .down div {
+        width: 100vw;
+        height: 50vh;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+}

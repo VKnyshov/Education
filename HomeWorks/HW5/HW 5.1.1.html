@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Loader</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: green;
+            animation: box 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes box {
+            0%{
+                transform: scale(2) translateZ(300px);
+            }
+            30%{
+                border: 3px solid yellow;
+                transform: translateZ(1.5);
+            }
+            60%{
+                border: 3px solid red;
+                transform: translateZ(1.2);
+            }
+            100%{
+                transform: scale(1);
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+<div></div>
+
+</body>
+</html>

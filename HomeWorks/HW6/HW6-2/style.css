@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: black;*/
+}
+.all {
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    gap: 1%;
+}
+.form-action {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    flex-direction: column;
+}
+.after-form {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+/*--------------------------------------------------------------------------*/
+.form-action img {
+    width: 50%;
+    margin: 5vh;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type='text'], input[type='password'] {
+    width: 20vw;
+    height: 5vh;
+    border: 2px solid #d0c4c4;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+    text-overflow: ellipsis; /*якщо не вміщається текст*/
+}
+input[type="submit"] {
+    width: 20vw;
+    height: 5vh;
+    background-color: #4367e7;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600; /*ширина тексту*/
+    color: white;
+    margin-bottom: 2vh;
+}
+div span {
+    display: block;
+    color: gray;
+    margin-bottom: 3vh;
+}
+.form-action p{
+    color:#3f51b5;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+.form-action a{
+    color: #3f51b5;
+    font-weight: 550;
+    text-decoration: none;
+}
+.after-form p{
+     font-weight: 300;
+}
+.after-form a{
+    font-weight: 600;
+    text-decoration: none;
+}

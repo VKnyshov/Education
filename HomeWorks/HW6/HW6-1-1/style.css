@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; /*вказуємо шрифт*/
+    font-weight: 300; /*вказуємо ширину шрифта*/
+}
+
+body {
+    background-color: darkcyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centre {
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.centre h2 {
+    text-align: center; /*Вирівнюєм текст*/
+    background-color: rgba(0, 139, 139, 0.2);
+    padding: 5vh 0;
+}
+
+/*--------------------------------------------*/
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    width: 25vw;
+    height: 5vh;
+    margin-top: 4vh;
+    border-radius: 2%;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    font-size: 20px;
+    padding-top: 4vh;
+}
+
+input[type="submit"] {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 20px;
+    background-color: rgba(0, 139, 139, 0.2);
+}

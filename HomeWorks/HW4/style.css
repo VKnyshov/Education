@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    width: 100vw;
+    height: 13vw;
+    background-color: #D9D9D9;
+}
+main {
+    width: 100vw;
+    height: 74vw;
+    background-color: #A4A4A4;
+
+}
+footer{
+    width: 100vw;
+    height: 13vw;
+    background-color: #D9D9D9;
+}

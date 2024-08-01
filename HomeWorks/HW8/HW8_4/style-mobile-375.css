@@ -1,0 +1,23 @@
+@media screen and (min-width: 0px) and (max-width: 375px) {
+
+    section{
+        background-color: green;
+        width: 375px;
+        height: auto;
+    }
+    .first-line{
+        flex-direction: column;
+        margin: 32px 16px 0 16px;
+        gap: 40px;
+    }
+    .second-line{
+        flex-direction: column;
+        margin: 40px 16px 32px 16px;
+        gap: 40px;
+    }
+    img{
+        width: 343pх;
+        height: 257px;
+    }
+}
+
